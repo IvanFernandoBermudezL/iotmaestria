@@ -31,7 +31,7 @@ class DataDisplay extends Component {
         max: maxResponse.Value_max,
         min: minResponse.Value_min,
         average: avgResponse.Value_avg,
-        error: null // Clear any previous errors
+        error: null 
       });
     })
     .catch(error => {

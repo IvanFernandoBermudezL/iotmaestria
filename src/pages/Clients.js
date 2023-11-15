@@ -1,7 +1,7 @@
 const Clients = () => {
     return (
         <div>
-            <p>Clients</p>
+            <p>Estos quedó simulado en la otra parte del proyecto</p>
         </div>
     )
 }

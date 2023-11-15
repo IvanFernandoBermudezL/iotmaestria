@@ -1,7 +1,7 @@
 const Navbar = () => {
     return (
         <div className="navbar">
-                IoT Bermúdez y Restrepo
+            IoT Bermúdez y Restrepo
         </div>
     )
 }
