@@ -48,19 +48,19 @@ class DataDisplay extends Component {
   render() {
     const { lastEntry, max, min, average, error } = this.state;
 
-    // Inline CSS styles
+ 
     const styles = {
       container: {
-        backgroundColor: '#f4f4f4', // Light gray background
+        backgroundColor: '#f4f4f4', 
         padding: '20px',
         borderRadius: '8px',
-        boxShadow: '0 2px 4px rgba(0, 0, 0, 0.1)', // Subtle shadow
+        boxShadow: '0 2px 4px rgba(0, 0, 0, 0.1)', 
         maxWidth: '600px',
         margin: '20px auto',
         fontFamily: 'Arial, sans-serif',
       },
       button: {
-        backgroundColor: '#333', // Dark gray button
+        backgroundColor: '#333', 
         color: 'white',
         padding: '10px 15px',
         border: 'none',
@@ -75,8 +75,8 @@ class DataDisplay extends Component {
         padding: '10px',
         margin: '10px 0',
         borderRadius: '4px',
-        border: '1px solid #ddd', // Light gray border
-        color: '#333', // Dark gray text
+        border: '1px solid #ddd', 
+        color: '#333', 
       },
       error: {
         color: 'red',
